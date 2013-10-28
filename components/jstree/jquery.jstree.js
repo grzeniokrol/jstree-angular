@@ -57,6 +57,7 @@
 			return $.vakata.css.get_css(rule_name, true, sheet); 
 		},
 		add_sheet : function(opts) {
+			console.log('OPTS', opts);
 			var tmp = false, is_new = true;
 			if(opts.str) {
 				if(opts.title) { tmp = $("style[id='" + opts.title + "-stylesheet']")[0]; }

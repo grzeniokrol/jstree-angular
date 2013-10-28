@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="utf-8">
-        <title>Angular jstree-directive</title>        
-        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-        <link href="//ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css" />
-        
-    </head>
-    <body>
-    <div class="container" ng-app="treeDemo">
-        <a class="btn" href="#/a">Side a</a>
-        <a class="btn" href="#/b">Side b</a>
-        <div ng-view></div>
-    </div>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
-        <script src="ui-date.js"></script>        
-        <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui/0.4.0/angular-ui.min.js"></script> -->
-        
-        <script src="jstree.js"></script>
-        
-        <script src="app.js"></script>
-        <script src="treeDirective.js"></script>
-        <script src="dialogDirective.js"></script>
-        <script src="TreeDemoCtrl.js"></script>        
-    </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Angular jstree-directive</title>
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+  <div class="container" ng-app="treeDemo">
+    <div ng-view></div>
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+
+  <script src="components/jstree/jquery.jstree.js"></script>
+
+  <script src="app.js"></script>
+  <script src="treeDirective.js"></script>
+  <script src="treeDemoCtrl.js"></script>
+</body>
+
 </html>

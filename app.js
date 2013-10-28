@@ -1,7 +1,6 @@
-var app = angular.module('treeDemo', ['ui.date']).
+angular.module('treeDemo', ['jsTree']).
   config(['$routeProvider', function($routeProvider) {
   $routeProvider.
-      when('/a', {templateUrl: 'view1.html',   controller: 'TreeDemoCtrl'}).
-      when('/b', {templateUrl: 'view2.html', controller: 'Page2Ctrl'}).
+      when('/a', {templateUrl: 'treeDemo.html', controller: 'treeDemoCtrl'}).
       otherwise({redirectTo: '/a'});
 }]);

@@ -1,0 +1,16 @@
+<div class="main" ng-controller="treeDemoCtrl">
+  <aside class="sidebar sidebar well well-small">
+    <div jstree settings="treeSettings"></div>
+  </aside>
+
+  <section class="main-with-sidebar" ng-hide="working" ng-loading="working" ng-cloak>
+    <div class="page-header">
+      <h2>
+        {{path}}
+        <small>| (id: {{defaultSelected}})</small>
+      </h2>
+    </div>
+
+  </section>
+
+</div>

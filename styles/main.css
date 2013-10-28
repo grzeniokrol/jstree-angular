@@ -1,0 +1,17 @@
+.main {
+    top: 15px;
+    bottom: 15px;
+}
+
+.main-with-sidebar {
+    margin-left: 230px;
+}
+
+.sidebar {
+    position:absolute;
+    top: 15px;
+    bottom: 15px;
+    width: 200px;
+    overflow: auto;
+}
+
